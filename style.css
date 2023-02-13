@@ -1,0 +1,20 @@
+/* #first{
+    border: 1px solid red;
+    color: red;
+} */
+.calc{
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    grid-template-columns: repeat(4,60px);
+    grid-gap: 10px;
+}
+#showData{
+    height: 30px;
+    width: 265px;
+    margin-bottom: 10px;
+
+}
+button{
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px grey; 
+}
